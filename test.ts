@@ -4,7 +4,7 @@ function teste (): number {
 
 teste()
 
-console.log('teste 10')
+console.log('teste 11')
 
 console.log('lint-staged')
 
