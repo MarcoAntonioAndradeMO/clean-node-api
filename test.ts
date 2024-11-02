@@ -5,3 +5,5 @@ function teste (): number {
 teste()
 
 console.log('teste')
+
+console.log('lint-staged')
