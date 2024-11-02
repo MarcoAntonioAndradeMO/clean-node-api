@@ -8,4 +8,4 @@ console.log('teste 11')
 
 console.log('lint-staged')
 
-console.log('Test husky pre-commit')
+console.log('Test husky pre-commit 59')
