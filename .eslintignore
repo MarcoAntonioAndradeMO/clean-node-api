@@ -11,3 +11,4 @@ public
 requirements
 !src/data
 !tests/data
+coverage
