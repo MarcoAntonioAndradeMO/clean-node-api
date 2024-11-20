@@ -7,7 +7,7 @@
     "lint": "eslint '**/*.{ts,js}'",
     "lint:fix": "npm run lint -- --fix",
     "test": "jest --passWithNoTests --runInBand --no-cache",
-    "test:unit" : "npm test -- --watch -c jest-unit-config.js",
+    "test:unit": "npm test -- --watch -c jest-unit-config.js",
     "test:integration": "npm test -- --watch -c jest-integration-config.js",
     "test:staged": "npm test -- --findRelatedTests",
     "test:ci": "npm test -- --coverage",
@@ -23,6 +23,7 @@
     "@shelf/jest-mongodb": "^4.3.2",
     "@types/jest": "^29.5.14",
     "@types/node": "^20.5.6",
+    "@types/validator": "^13.12.2",
     "@typescript-eslint/eslint-plugin": "^6.4.1",
     "@typescript-eslint/parser": "^6.21.0",
     "eslint": "^8.48.0",
@@ -37,5 +38,8 @@
     "ts-jest": "^29.2.5",
     "ts-node": "^10.9.1",
     "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "validator": "^13.12.0"
   }
 }
