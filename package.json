@@ -41,7 +41,9 @@
     "typescript": "^5.3.3"
   },
   "dependencies": {
+    "@types/mongodb": "^4.0.7",
     "bcrypt": "^5.1.1",
+    "mongodb": "^6.11.0",
     "validator": "^13.12.0"
   }
 }
